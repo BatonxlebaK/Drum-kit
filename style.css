@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-size: auto;
+    background-image: url(/assets/imgs/sfgjnk.png);
+}
+
+.keys {
+    width: 800px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 450px;
+    margin-left: 550px;
+}
+
+.key {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 1px;
+    height: 100%;
+    width: 60px;
+    color: white;
+    background-color: black;
+    border: solid grey 2px;
+    transition: all .07s ease;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 10px #ffc600;
+}
