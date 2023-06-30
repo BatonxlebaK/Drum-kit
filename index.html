@@ -18,59 +18,63 @@
 </head>
 
 <body>
-    <div class="keys">
-        <div class="key">
-            <kbd>a</kbd>
-            <span class="sound"></span>
+
+    <body>
+        <div class="keys">
+            <div data-key-btn="65" class="key">
+                <kbd>a</kbd>
+                <span class="sound">do</span>
+            </div>
+            <div data-key-btn="83" class="key">
+                <kbd>s</kbd>
+                <span class="sound">re</span>
+            </div>
+            <div data-key-btn="68" class="key">
+                <kbd>d</kbd>
+                <span class="sound">mi</span>
+            </div>
+            <div data-key-btn="70" class="key">
+                <kbd>f</kbd>
+                <span class="sound">fa</span>
+            </div>
+            <div data-key-btn="71" class="key">
+                <kbd>g</kbd>
+                <span class="sound">sol</span>
+            </div>
+            <div data-key-btn="72" class="key">
+                <kbd>h</kbd>
+                <span class="sound">lya</span>
+            </div>
+            <div data-key-btn="74" class="key">
+                <kbd>j</kbd>
+                <span class="sound">si</span>
+            </div>
         </div>
-        <div class="key">
-            <kbd>s</kbd>
-            <span class="sound"></span>
+
+        <div class="keys border2">
+            <div data-key-btn="75" class="key">
+                <kbd>k</kbd>
+                <span class="sound">do 2</span>
+            </div>
+            <div data-key-btn="76" class="key">
+                <kbd>l</kbd>
+                <span class="sound">do long</span>
+            </div>
         </div>
-        <div class="key">
-            <kbd>d</kbd>
-            <span class="sound"></span>
-        </div>
-        <div class="key">
-            <kbd>f</kbd>
-            <span class="sound"></span>
-        </div>
-        <div class="key">
-            <kbd>g</kbd>
-            <span class="sound"></span>
-        </div>
-        <div class="key">
-            <kbd>h</kbd>
-            <span class="sound"></span>
-        </div>
-        <div class="key">
-            <kbd>j</kbd>
-            <span class="sound"></span>
-        </div>
-        <div class="key">
-            <kbd>k</kbd>
-            <span class="sound"></span>
-        </div>
-        <div class="key">
-            <kbd>l</kbd>
-            <span class="sound"></span>
-        </div>
-    </div>
 
 
+        <audio data-key="65" src="/assets/sounds/zvuk-notyi-do.mp3"></audio>
+        <audio data-key="83" src="/assets/sounds/zvuk-notyi-re.mp3"></audio>
+        <audio data-key="68" src="/assets/sounds/zvuk-notyi-mi.mp3"></audio>
+        <audio data-key="70" src="/assets/sounds/zvuk-notyi-fa.mp3"></audio>
+        <audio data-key="71" src="/assets/sounds/zvuk-notyi-sol.mp3"></audio>
+        <audio data-key="72" src="/assets/sounds/zvuk-notyi-lya.mp3"></audio>
+        <audio data-key="74" src="/assets/sounds/zvuk-notyi-si.mp3"></audio>
+        <audio data-key="75" src="/assets/sounds/zvuk-notyi-do-vo-vtoroy-oktave.mp3"></audio>
+        <audio data-key="76" src="/assets/sounds/zvuk-notyi-do-rastyanutyiy.mp3"></audio>
 
-    <audio data-key="65" src="/assets/sounds/zvuk-notyi-do-rastyanutyiy.mp3"></audio>
-    <audio data-key="83" src="/assets/sounds/zvuk-notyi-do-vo-vtoroy-oktave.mp3"></audio>
-    <audio data-key="68" src="/assets/sounds/zvuk-notyi-do.mp3"></audio>
-    <audio data-key="70" src="/assets/sounds/zvuk-notyi-fa.mp3"></audio>
-    <audio data-key="71" src="/assets/sounds/zvuk-notyi-lya.mp3"></audio>
-    <audio data-key="72" src="/assets/sounds/zvuk-notyi-mi.mp3"></audio>
-    <audio data-key="74" src="/assets/sounds/zvuk-notyi-re.mp3"></audio>
-    <audio data-key="75" src="/assets/sounds/zvuk-notyi-si.mp3"></audio>
-    <audio data-key="76" src="/assets/sounds/zvuk-notyi-sol.mp3"></audio>
 
-
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 
 </html>
